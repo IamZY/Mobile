@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="2.5" 
+	xmlns="http://java.sun.com/xml/ns/javaee" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee 
+	http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>loginServlet</servlet-name>
+    <servlet-class>com.servlet.loginServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>registerServlet</servlet-name>
+    <servlet-class>com.servlet.registerServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>LoginIsRemaningAjaxServlet</servlet-name>
+    <servlet-class>com.servlet.LoginIsRemaningAjaxServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>UsernameIsRemaningAjaxServlet</servlet-name>
+    <servlet-class>com.servlet.UsernameIsRemaningAjaxServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>PhoneIsRemaningAjaxServlet</servlet-name>
+    <servlet-class>com.servlet.PhoneIsRemaningAjaxServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>SelectNumberServlet</servlet-name>
+    <servlet-class>com.servlet.SelectNumberServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>PhoneChangePageServlet</servlet-name>
+    <servlet-class>com.servlet.PhoneChangePageServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>SelectNumberBysetmealServlet</servlet-name>
+    <servlet-class>com.servlet.SelectNumberBysetmealServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AccountServlet</servlet-name>
+    <servlet-class>com.servlet.AccountServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>indexServlet</servlet-name>
+    <servlet-class>com.servlet.indexServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>OnlineRechargeServlet</servlet-name>
+    <servlet-class>com.servlet.OnlineRechargeServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>OnlineComfirmServlet</servlet-name>
+    <servlet-class>com.servlet.OnlineComfirmServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ConfirmToAccountServlet</servlet-name>
+    <servlet-class>com.servlet.ConfirmToAccountServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>OnlineAccountServlet</servlet-name>
+    <servlet-class>com.servlet.OnlineAccountServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>CardIsRemaningAjaxServlet</servlet-name>
+    <servlet-class>com.servlet.CardIsRemaningAjaxServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>PhoneCardIsRemaningAjaxServlet</servlet-name>
+    <servlet-class>com.servlet.PhoneCardIsRemaningAjaxServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>CardLoginIsRemaningServlet</servlet-name>
+    <servlet-class>com.servlet.CardLoginIsRemaningServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>CardSaveInfoServlet</servlet-name>
+    <servlet-class>com.servlet.CardSaveInfoServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>RecordServlet</servlet-name>
+    <servlet-class>com.servlet.RecordServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ReplacementServlet</servlet-name>
+    <servlet-class>com.servlet.ReplacementServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>BusinessIsOpenServlet</servlet-name>
+    <servlet-class>com.servlet.BusinessIsOpenServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>BusinessIsCloseServlet</servlet-name>
+    <servlet-class>com.servlet.BusinessIsCloseServlet</servlet-class>
+  </servlet>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+  <servlet-mapping>
+    <servlet-name>loginServlet</servlet-name>
+    <url-pattern>/servlet/loginServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>registerServlet</servlet-name>
+    <url-pattern>/servlet/registerServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>LoginIsRemaningAjaxServlet</servlet-name>
+    <url-pattern>/servlet/LoginIsRemaningAjaxServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UsernameIsRemaningAjaxServlet</servlet-name>
+    <url-pattern>/servlet/UsernameIsRemaningAjaxServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>PhoneIsRemaningAjaxServlet</servlet-name>
+    <url-pattern>/servlet/PhoneIsRemaningAjaxServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>SelectNumberServlet</servlet-name>
+    <url-pattern>/servlet/SelectNumberServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>PhoneChangePageServlet</servlet-name>
+    <url-pattern>/servlet/PhoneChangePageServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>SelectNumberBysetmealServlet</servlet-name>
+    <url-pattern>/servlet/SelectNumberBysetmealServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AccountServlet</servlet-name>
+    <url-pattern>/servlet/AccountServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>indexServlet</servlet-name>
+    <url-pattern>/servlet/indexServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>OnlineRechargeServlet</servlet-name>
+    <url-pattern>/servlet/OnlineRechargeServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>OnlineComfirmServlet</servlet-name>
+    <url-pattern>/servlet/OnlineComfirmServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ConfirmToAccountServlet</servlet-name>
+    <url-pattern>/servlet/ConfirmToAccountServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>OnlineAccountServlet</servlet-name>
+    <url-pattern>/servlet/OnlineAccountServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CardIsRemaningAjaxServlet</servlet-name>
+    <url-pattern>/servlet/CardIsRemaningAjaxServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>PhoneCardIsRemaningAjaxServlet</servlet-name>
+    <url-pattern>/servlet/PhoneCardIsRemaningAjaxServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CardLoginIsRemaningServlet</servlet-name>
+    <url-pattern>/servlet/CardLoginIsRemaningServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CardSaveInfoServlet</servlet-name>
+    <url-pattern>/servlet/CardSaveInfoServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>RecordServlet</servlet-name>
+    <url-pattern>/servlet/RecordServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ReplacementServlet</servlet-name>
+    <url-pattern>/servlet/ReplacementServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>BusinessIsOpenServlet</servlet-name>
+    <url-pattern>/servlet/BusinessIsOpenServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>BusinessIsCloseServlet</servlet-name>
+    <url-pattern>/servlet/BusinessIsCloseServlet</url-pattern>
+  </servlet-mapping>
+  
+  
+  
+  
+  
+  <filter>
+  	<filter-name>RecordFilter</filter-name>
+  	<filter-class>com.filter.RecordFilter</filter-class>
+  </filter>
+  
+  <filter-mapping>
+  	<filter-name>RecordFilter</filter-name>
+  	<url-pattern>/recharge_style/record.jsp</url-pattern>
+  </filter-mapping>
+  
+  
+  <filter>
+  	<filter-name>businessFilter</filter-name>
+  	<filter-class>com.filter.businessFilter</filter-class>
+  </filter>
+  
+  <filter-mapping>
+  	<filter-name>businessFilter</filter-name>
+  	<url-pattern>/business/replacement_business.jsp</url-pattern>
+  </filter-mapping>
+  
+  
+  
+  <welcome-file-list>
+    <welcome-file>index.jsp</welcome-file>
+  </welcome-file-list>
+</web-app>

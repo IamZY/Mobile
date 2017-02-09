@@ -1,0 +1,772 @@
+﻿@charset "utf-8";
+/* CSS Document */
+body{
+font-family:"宋体", sans-serif;
+font-size:12px;
+color:#666666;
+}
+/*------登录---------------------*/
+
+#contain {
+	width:800px;
+	background-color:transparent;
+	margin:0 auto;
+}
+#head {
+	margin-top:20px;
+}
+#main {
+	background-image:url(../image/sso-mainLoginBoxBg.jpg);
+	background-repeat:no-repeat;
+	position:absolute;
+	margin-top:70px;
+	width:950px;
+	height:350px;
+}
+#main-loginBox {
+	margin-top:40px;
+}
+.main-recommend-list {
+	float:left;
+	margin-top:110px;
+	margin-left:95px;
+}
+.main-recommend-list li {
+	background:url(../image/icon.JPG) center left no-repeat;
+	height:48px;
+	line-height:55px;
+	margin-left:5px;
+	padding-left:10px;
+}
+#main-loginBox-tab {
+	display:inline;
+}
+#main-loginBox-tab li {
+	list-style-type:none;
+	text-align:center;
+	float:left;
+	height:49px;
+	line-height:49px;
+}
+#main-loginBox-tab span.current {
+	font-weight:bold;
+	font-family:"宋体";
+	font-size:16px;
+	color:white;
+	float:left;
+	height:49px;
+	width:200px;
+ 	display:block;
+	margin-left:65px;
+	background:url(../image/hd_title_bg1.gif) no-repeat scroll;
+}
+#main-loginBox-tab span.operator {
+	font-weight:bold;
+	font-family:"宋体";
+	font-size:16px;
+	color:#037DC9;
+	float:left;
+	width:200px;
+	height:49px;
+	width:200px;
+ 	display:block;
+}
+.main-loginBox-center {
+	border-top:#007FCB solid 3px;
+	width:396px;
+
+	display:block;
+	float:left;
+	margin-left:68px;
+	margin-top:-13px;
+	font-size:15px;
+}
+
+.main-recommend-list a:link {
+	color:#666666;
+	text-decoration:none;
+	font-weight:bolder;
+}
+.main-recommend-list a:visited {
+	color:#666666;
+	text-decoration:none;
+	font-weight:bolder;
+}
+.main-recommend-list a:hover {
+	color:#666666;
+	text-decoration:underline;
+	font-weight:bolder;
+}
+.main-recommend-list a.active {
+	color:#666666;
+	text-decoration:underline;
+	font-weight:bolder;
+}
+.main-recommend-list p {
+	font-family:"宋体";
+	line-height:1px;
+	font-size:12px;
+	color:#666666
+}
+.main-recommend-list li p {
+	margin-top:-3px;
+}
+.submitbutt button {
+	height:34px;
+	width:140px;
+	background:url("../image/sso-mainLoginBox.gif") no-repeat scroll 0 -132px transparent;
+	border-style:none;
+}
+.main-loginBox-center .tusername {
+	margin-top:50px;
+	margin-left:60px;
+}
+.main-loginBox-center .tpassword {
+	margin-top:30px;
+	margin-left:60px;
+}
+.main-loginBox-center .submitbutt {
+	margin-top:30px;
+	margin-left:130px;
+	font-family:"宋体", sans-serif;
+	font-size:25px;
+}
+
+/*-----------------------------------------------*/
+/* 内容右层 */
+.right {float:none;height:93%;margin:0 5px 0px 0px;text-align:left;}
+/* 当前操作页面 */
+.right #TabPage1 {height:33px;margin:1px 0 -1px 0;position:relative;z-index:1;}
+.right #TabPage1 li {float:left;margin:0 3px 0 0;padding:12px 0 0 0;width:86px;height:21px;background: url("tab.gif") no-repeat left 0;cursor:pointer;color:#fff;text-align:center;letter-spacing:3px;}
+.right #TabPage1 li#Tab3 {display:block!important;display:none;}
+.right #TabPage1 li.Selected {padding:10px 0 0 1px;width:86px;height:23px;background: url("tab.gif") no-repeat left -33px;font-size:14px;font-weight:600;color:#000;}
+/* 操作页面层 */
+.right  #cnt {position:relative;z-index:0;}
+.right  #cnt div {height:100%;background:#fff;}
+.right  #cnt div iframe {height:517px!important;height:100%;width:100%;}
+*+html .right  #cnt div iframe {height:100%!important;}/* IE7 hack */
+.right  #cnt div#dTab1 {}
+.right  #cnt div#dTab2 {display:none;}
+.right  #cnt div#dTab3 {display:none;}
+
+
+#head-head{
+
+margin-top:5px;
+font-weight:600;
+height:36px;
+line-height:36px;
+background:url(../image/one_bg.gif) repeat-x scroll;
+}
+
+.clear{
+clear:left;
+}
+
+
+.loginout{
+ 	margin-left:50px;
+}
+ 
+ .loginout  a:link, .loginout a:visited{
+ 	 	color:#F0870C;
+		text-decoration:none;
+ }
+
+ .loginout  a:hover,  .loginout a:active{
+ 	color:#F0870C;
+	text-decoration:underline;
+
+
+}
+
+
+
+/**----------------------------------------*/
+.logo{
+margin-top:23px;
+margin-left:10px;
+float:left;
+}
+.js-log{
+margin-top:20px;
+margin-left:20px;
+
+}
+
+/**---------------------------------------head.html.............../
+
+/**---------------------------------------------select-number.html----------------*/
+.loc li{
+margin-top:10px;
+display:block;
+border: #BEBEBE solid 1px;
+
+background-color:#E1E1E1;
+
+margin-left:12px;
+padding-left:10px;
+padding-right:10px;
+height:29px;
+line-height:29px;
+float:left;
+}
+
+
+.fee li,#dnseg li,#type li{
+margin-top:10px;
+margin-left:2px;
+padding-left:10px;
+padding-right:10px;
+height:20px;
+line-height:20px;
+float:left;
+
+}
+#search{
+margin-left:10px;
+margin-top:10px;
+
+
+}
+.numb-form ,#modify{
+
+height:26px;
+width:74px;
+margin-left:2px;
+display:block;
+line-height:26px;
+text-align:center;
+background:url(../image/buy-network-bg.jpg) no-repeat scroll ;
+float:left;
+}
+.form{
+height:26px;
+width:74px;
+ 
+display:block;
+line-height:26px;
+text-align:center;
+background:  no-repeat scroll ;
+}
+
+.renyi{
+
+
+background:#03AFEB;
+color:white
+}
+
+
+#sousuo{
+margin-top:5px;
+background:url(../image/sousuo.png) no-repeat scroll;
+border-style:none;
+height:24px;
+width:50px;}
+
+#search #inputstyle{
+width:200px;
+height:20px;
+border:#0fe4ea  solid 1px;
+margin-left:12px;
+
+}
+.clear{
+clear:left
+}
+
+
+/*-------------ALL TABLE  STYYLE-----------------*/
+#page{
+margin-left:306px;
+width:403px;
+height:26px;
+
+}
+.table-infor-record-style2{
+margin-left:20px;
+margin-top:30px;
+border: 1px solid #C8E0F1;
+
+
+}
+#page2{
+margin-left:316px;
+width:403px;
+height:26px;
+
+}
+.table-infor-record-style{
+margin-left:10px;
+margin-top:20px;
+border: 1px solid #C8E0F1;
+}
+
+.table-infor-record-style td,.table-infor-record-style2 td{
+
+margin-left:10px;
+height:34px;
+border: 1px solid #C8E0F1 ;
+text-align:center;
+vertical-align:middle;
+
+}
+.table-infor-record-style tr  th,.table-infor-record-style2 tr th{
+
+color:white;
+background:#79C8E6;
+line-height:34px;
+text-align:center;
+
+font-size:13px;
+font-weight:bold;
+
+}
+
+
+
+.buy{
+border-style:none;
+display:block;
+width:96px;
+height:23px;
+text-align:center;
+line-height:23px;
+color:white;
+background:url(../image/buy.png) no-repeat scroll;
+}
+
+.input-page-style{
+text-align:center;
+height:22px;
+border-style:none;
+border:solid 1px #0fe4ea;
+width:50px;
+
+
+}
+
+/*---------------------------------------select_number_bysetmeal---------------*/
+
+#business li{
+
+background:#E1E1E1;
+border:solid 1px #BCBCBC;
+	float:left;
+	line-height:33px;
+	height:33px;
+	margin-left:10px;
+
+}
+
+
+
+.resele{
+margin-top:20px;
+
+}
+.sub{
+font-size:20px;
+
+font-weight:bold;
+
+color:white;
+
+position:relative;
+top:-10px;
+line-height:39px;
+border-style:none;
+width:140px;
+height:39px;
+background: url(../image/sso-mainLoginBox.gif) no-repeat scroll  0 -166px transparent;
+}
+
+.sub2{
+font-size:20px;
+
+font-weight:bold;
+color:white;
+position:relative;
+top:-10px;
+line-height:39px;
+border-style:none;
+width:140px;
+height:34px;
+background: url(../image/tt.gif) no-repeat scroll  0 -132px transparent;
+}
+
+/**----------------------table style---------------*/
+
+.table-style-online {
+margin-top:30px;
+margin-left:20px;
+width:500px;
+
+}
+.table-style{
+margin-top:30px;
+margin-left:20px;
+width:300px;
+
+}
+.table-style tr td,.table-style-online tr td{
+font-family:"宋体", sans-serif;
+font-size:13px;
+color:#999999;
+vertical-align:middle;
+text-align:center;
+margin-top:20px;
+height:30px;
+line-height:30px;
+
+
+
+
+}
+.table-style .left-td-style,.table-style-online .left-td-style{
+text-align:left;
+}
+
+.table-style .right-td-style,.table-style-online .right-td-style{
+text-align:left;}
+
+.form-button-style{
+margin-top:20px
+
+
+}
+.input-form-style2{
+text-align:center;
+height:22px;
+border-style:none;
+border:solid 1px #0fe4ea;
+width:80px;
+}
+
+.input-form-style{
+text-align:center;
+height:22px;
+border-style:none;
+border:solid 1px #0fe4ea;
+width:200px;
+
+
+}
+
+.button-tr-style,.button-tr-style-setmeal{
+height:60px;
+line-height:60px;
+}
+.button-tr-style td{
+text-align:center;
+vertical-align:middle;
+
+
+
+
+}
+.setmeal-select{
+margin-top:30px;
+margin-left:20px;}
+
+
+.record-tel{
+margin-top:30px;
+margin-left:20px;
+}
+.tel-account{
+mrgin-top:40px;
+
+
+font-family:Arial, Helvetica, sans-serif;
+font-weight:900;
+font-size:16px;
+color:red;}
+
+
+
+
+/*----------------record.html--------------------------------------------------------------*/
+/*----------daohang-------*/
+
+.blywkt{
+
+background: url(../image/kt.png) no-repeat scroll;
+width:44px;
+height:22px;
+border-style:none;
+color:white;
+
+
+
+}
+.dqtc{
+background: url(../image/dqtc.png) no-repeat scroll;
+width:60px;
+height:22px;
+border-style:none;
+color:white;
+
+}
+/*------------------------submit-------------*/
+.button-sub{
+
+color:white;
+font-weight:600;
+background:url(../image/submit.png) no-repeat scroll;
+width:88px;
+height:36px;
+border-style:none;
+
+}
+
+/*------------------------reset-------------*/
+
+.button-res{
+background:url(../image/reset.png) no-repeat scroll;
+font-weight:600;
+color:gray;
+width:88px;
+height:36px;
+border-style:none;
+}
+
+
+/*-------------dao-hang.html---------------------------*/
+#card-procedure{
+margin-top:30px;
+margin-left:20px;
+background:url(../image/txxx.gif) scroll no-repeat;
+height:40px;
+
+}
+
+ .tcbl{
+ margin-top:30px;
+margin-left:20px;
+background:url(../image/tcbl.png)  scroll no-repeat;
+height:40px;
+width:220px;
+ 
+ }
+ .ywbl{
+ margin-top:30px;
+margin-left:20px;
+background:url(../image/ywbl.png)  scroll no-repeat;
+height:40px;
+width:220px;
+ 
+ }
+.xzywy{
+margin-top:30px;
+margin-left:20px;
+background:url(../image/xzywy.png)  scroll no-repeat;
+height:40px;
+width:220px;
+
+}
+.yhzcxq{
+margin-top:30px;
+margin-left:20px;
+background: url(../image/yhzcxq.png)  scroll no-repeat;
+height:40px;
+width:220px;
+}
+.dztc{
+margin-top:30px;
+margin-left:20px;
+background:url(../image/dztc.png)  scroll no-repeat;
+height:40px;
+width:220px;
+
+}
+.dzyhzc{
+margin-top:30px;
+margin-left:20px;
+background:url(../image/dzyhzc.png)  scroll no-repeat;
+height:40px;
+width:220px;
+}
+.xgywy{
+margin-top:30px;
+margin-left:20px;
+background:url(../image/xgywy.png)  scroll no-repeat;
+height:40px;
+width:220px;
+
+}
+.ywyxx{
+margin-top:30px;
+margin-left:20px;
+background:url(../image/ywyxx.png)  scroll no-repeat;
+height:40px;
+width:220px;
+}
+.jlrzxx{
+margin-top:30px;
+margin-left:20px;
+background:url(../image/jlrzxx.png)  scroll no-repeat;
+height:40px;
+width:220px;
+
+}
+.hdkhxx{
+margin-top:30px;
+margin-left:20px;
+background:url(../image/hdkhxx.png)  scroll no-repeat;
+height:40px;
+width:220px;
+}
+.dzsfxi{
+margin-top:30px;
+margin-left:20px;
+background:url(../image/dzsfxx.png)  scroll no-repeat;
+height:40px;
+width:220px;
+
+}
+.zhzf{
+margin-top:30px;
+margin-left:20px;
+background:url(../image/zhzf.png)  scroll no-repeat;
+height:40px;
+width:220px;
+
+
+}
+#card-procedure2{
+margin-top:30px;
+margin-left:20px;
+background:url(../image/public-mainRight-recharge-Process.gif) scroll no-repeat;
+height:40px;
+
+}
+
+#card-procedure3{
+margin-top:30px;
+margin-left:20px;
+background:url(../image/public-mainRight-recharge-Process.gif) no-repeat scroll 0 center transparent;
+height:40px;
+
+}
+
+
+
+/**----------------------------------register*/
+
+#reg-img{
+width:800px;
+
+}
+#register-contain{
+width:800px;
+margin:0 auto;
+
+}
+
+
+.add-customer{
+	text-align:right;
+	background:#EFF6FB;
+
+}
+
+.regtitle{
+	
+	width:270px;	
+}
+.reginput{
+	
+	width:250px;	
+}
+
+.add-customer input{
+width:233px;
+height:30px;
+border-style:none;
+border:solid 1px #AFAFAF;
+margin-top:15px;
+
+
+}
+#reg-sub{
+margin-top:10px;
+margin-right:50px;
+border-style:none;
+width:140px;
+height:39px;
+line-height:39px;
+color:white;
+font-weight:900;
+font-size:16px;
+background: url(../image/sso-mainLoginBox.gif) no-repeat scroll  0 -166px transparent;
+}
+#register-main{
+margin-top:40px;
+
+}
+/*----------menu------------------*/
+
+.menu-title{
+
+		padding: 5px 5px 5px 10px ;
+		font-family: '黑体', '宋体';
+		font-size: 16px;
+		color: white;
+		display: block;
+
+ }
+ 
+ .menu-infor a:link {
+	color:#666666;
+	
+	text-decoration:none;
+
+}
+.menu-infor a:visited {
+	color:#666666;
+	text-decoration:none;
+
+}
+.menu-infor a:hover {
+	color:#666666;
+	text-decoration:underline;
+	
+}
+.menu-infor a.active {
+	color:#666666;
+	text-decoration:underline;
+	
+}
+.tit_nav{
+	background: url(../image/nav.gif) repeat-x 0 -40px;
+	width: 195px;
+	height: 40px;
+	display: block;
+	opacity: .6;
+}
+.tit_con {
+  list-style:none;
+}
+.tit_con li{
+margin:10px;
+padding-left:18px;
+background:url(../image/33.gif) center left no-repeat;
+}
+
+.tit{
+
+width:195px;  
+border-left:#1A76B7  1px solid;
+border-right:#1A76B7  1px solid;
+ border-bottom:#1A76B7  1px solid;
+}
+
+#tit1{
+
+width:195px;  
+border:#1A76B7  1px solid;
+}
+
+
